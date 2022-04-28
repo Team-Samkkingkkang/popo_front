@@ -1,0 +1,133 @@
+:root {
+	--header-color: #F3E9DD;
+	--body-color: #FDF6EC;
+	--diary-color: #F6E7D0;
+	--diary-list-color: #FFF5E5;
+	--header-text-color: #7A6E6E;
+}
+
+body {
+	margin: 0;
+	background-color: var(--header-color);
+}
+
+a {
+	text-decoration: none;
+	color: var(--header-text-color);
+	font-weight: bold;
+}
+
+.homehead {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 8px 12px;
+}
+
+.homehead_left_text {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+}
+
+.homehead_right_text {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+}
+
+.homehead_right_text li {
+	padding: 8px 12px;
+}
+
+.homebody {
+	border-radius: 15px;
+	background-color: var(--body-color);
+	margin: 10px 30px;
+}
+
+.homebody_nav_text {
+	display: flex;
+	justify-content: space-evenly;
+	list-style: none;
+	padding-top: 50px;
+	padding-left: 0;	
+}
+
+.homebody_nav_text li {
+	padding: 8px 50px;
+	font-weight: bold;
+	color: var(--header-text-color);
+}
+
+.homebody_nav_text li:hover {
+	text-decoration: underline;
+}
+
+.homebody_img_body {
+	display: flex;
+	justify-content: center;
+}
+
+.homebody_img_body img {
+	width: 90%;
+	height: 90%;
+	object-fit: cover;
+}
+
+.homebody_main_body {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.homebody_body_left {
+	background-color: var(--diary-color);
+	margin: 35px;
+	border-radius: 20px;
+	border: 2px;
+}
+
+.homebody_body_left > li {
+	display: flex;
+	justify-content: right;
+	padding: 8px 12px;
+	list-style: none;
+	font-weight: bold;
+	color: var(--header-text-color);
+}
+
+.homebody_body_left_diary {
+	margin: 15px;
+	border-radius: 10px;
+	background-color: var(--diary-list-color);
+}
+
+.homebody_body_left_dairy_list {
+	margin: 10px;
+}
+
+.homebody_body_right {
+	background-color: var(--diary-color);
+	margin: 35px;
+	border-radius: 20px;
+	border: 2px;
+}
+
+.homebody_body_right > li {
+	display: flex;
+	justify-content: right;
+	padding: 8px 12px;
+	list-style: none;
+	font-weight: bold;
+	color: var(--header-text-color);
+}
+
+.homebody_body_right_board {
+	margin: 15px;
+	border-radius: 10px;
+	background-color: var(--diary-list-color);
+}
+
+.homebody_body_right_board_list {
+	margin: 10px;
+}
